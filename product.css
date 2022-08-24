@@ -1,0 +1,25 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(auto,300px);
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+   
+}
+.product_card>img{
+   width: 250px;
+   height: 300px;
+}
+.product_card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border: transparent;
+    
+}
+#Add_To_Cart{
+    background-color: #ffe000;
+    padding: 6px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+}
