@@ -7,23 +7,17 @@
     <title>Checkout- Best Buy</title>
   </head>
   <body>
-    <div id="navbar">
-      <div id="icon-title">
-        <div>
-          <img
-            id="bestbuy-icon"
-            src="https://play-lh.googleusercontent.com/fLTpaW6d3nPupCwmVlfhdHPmw1fnt362QGIz0TATVxVr25XjRiOrfmjGOaOw5jMYu34D"
-            alt="best buy icon"
-          />
-        </div>
-
-        <div class="checkout-header_title">
-          <span>Checkout</span>
-        </div>
-      </div>
-      <a id="returnToCart" href="#">
-        <span>Return to Cart</span>
-      </a>
-    </div>
+    <div id="navbar"></div>
   </body>
 </html>
+
+<script type="module">
+    import checkoutNavbar from "./Components/checkoutNavbar.js"
+
+    document.getElementById("navbar").innerHTML = checkoutNavbar();
+
+
+
+
+
+</script>
