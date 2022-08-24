@@ -30,7 +30,7 @@
     
 }
 
-a{
+#returnToCart{
     text-decoration: none;
     color: #ffff;;
 }
@@ -38,3 +38,28 @@ a{
 #returnToCart{
     margin: auto;
 }
+
+.mini-footer_nav{
+    display: flex;
+}
+
+.mini-footer_nav ul li {
+    display: inline-block;
+    font-size: 11px;
+    color: rgb(0, 70, 190);
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color:rgb(240,242,244) ;
+}
+
+#checkout-mini-footer{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+}
+

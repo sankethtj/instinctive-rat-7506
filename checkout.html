@@ -8,16 +8,32 @@
   </head>
   <body>
     <div id="navbar"></div>
+
+    <footer id="footer">
+      <div id="checkout-mini-footer">
+        <div class="mini-footerLinks">
+          <nav role="navigation" class="mini-footer_nav">
+            <ul>
+              <li class="mini-footer_link">
+                <a href="#">Terms and Conditions |</a>
+              </li>
+              <li class="mini-footer_link"><a href="#">Privacy |</a></li>
+              <li class="mini-footer_link">
+                <a href="#">Interest-Based Ads</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mini-footer_sites">
+            <a href="#">Give Feedback</a>
+            <a href="#">Mobile Site</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
 
 <script type="module">
-    import checkoutNavbar from "./Components/checkoutNavbar.js"
-
-    document.getElementById("navbar").innerHTML = checkoutNavbar();
-
-
-
-
-
+  import checkoutNavbar from "./Components/checkoutNavbar.js";
+  document.getElementById("navbar").innerHTML = checkoutNavbar();
 </script>
