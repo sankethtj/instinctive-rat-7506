@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>
+    #cart{
+        height: 500px;
+        width: 1000px;
+        border: 1px solid red;
+        /* margin-bottom: -150px; */
+        margin-top: 100px;
+        /* display: flex; */
+    }
+#checkout{
+    height: 1000px;
+    width: 400px;
+    border: 1px solid rgb(173, 166, 166);
+    margin-left: 1100px;
+    margin-top: -850px;
+}
+#saved{
+    height: 200px;
+        width: 1000px;
+        /* border: 1px solid red; */
+        margin-top: 150px;
+        /* margin-bottom: -100px; */
+        border: 1px solid rgb(173, 166, 166);
+}
+#checkout :nth-child(1)
+{
+    margin-left: 120px;
+}
+#checkout :nth-child(2)
+{
+    margin-left: 20px;
+}
+#checkout :nth-child(3)
+{
+    margin-left: 20px;
+}
+#checkout :nth-child(4)
+{
+    margin-left: 20px;
+}
+
+#checkout :nth-child(5)
+{
+    margin-left: 20px;
+}
+
+#cbtn{
+margin-left: 60px;
+padding: 20px 110px 20px 110px;
+font-size:large;
+border-radius: 10px;
+background-color: yellow;
+}
+
+#pbtn{
+margin-left: 50px;
+padding: 20px 140px 20px 140px;
+font-size:large;
+border-radius: 10px;
+background-color: black;
+color: white;
+margin-top: 20px;
+}
+
+#credit{
+    height: 150px;
+    width: 400px;
+    /* border: 1px solid green; */
+    display: flex;
+}
+#image{
+    height: 150px;
+    width: 75px;
+    /* border: 1px solid gold; */
+    /* margin: auto; */
+    /* margin-right: -200px; */
+  
+}
+#enjoy{
+    margin-top: -15px;
+}
+#learn{
+    height: 150px;
+    width: 400px;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+#learn_2{
+    height: 150px;
+    width: 300px;
+    /* border: 1px solid salmon; */
+    /* padding: 10px 50px; */
+    margin-left: -130px;
+}
+
+#learn_1{
+    height: 150px;
+    width: 100px;
+    /* border: 1px solid salmon; */
+    /* padding: 30px 30px; */
+    margin-left: -30px;
+}
+#zea{
+
+    height: 60px;
+    width: 60px;
+/* margin-bottom: -100px;
+ */
+/* margin-top: 150px; */
+/* margin-left: -500px; */
+
+}
+#pay{
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.product_card{
+    height: 200px; 
+     width: 1000px;
+    display: flex;
+    border: 1px solid green;
+    gap:20px
+}
+#pimage{
+height: 180px;
+width: 300px;
+}
+</style>
+<h2 style="margin-top: 100px; margin-bottom:-70px">Your Cart</h2>
+<div id="cart">
+
+</div>
+<div id="saved">
+<h2>Saved Items</h2>
+_____________________________________________________________________________________________________________________________
+<h2 style="margin-left: 300px;">Your list is currently empty</h2>
+<p style="margin-left: 200px;">Need inspiration? Check out recommended items, or search for items to save.</p>
+</div>
+<div id="checkout">
+    <h3>Order Summary</h3>
+    __________________________________________________
+    <p id="total_amount"> </p>
+    <p id="saving"></p>
+    <p>Store Pickup</p>
+    __________________________________________________
+    <h3 id="total">Total</h3>
+    <button id="cbtn">Checkout</button>
+    <button id="pbtn">Paypal</button>
+    <a href="">Sign in or create an account now</a> to get My Best Buy™ Points
+    __________________________________________________
+   <div id="credit">
+<img style="height: 60px; width:60px;margin-left:+10px;margin-top:10px" src="https://www.bestbuy.com/~assets/bby/_com/MBBCC_MBBVC_Contactless_Dual_Yellow_Edge_RGB-a32c353844fb660dd08157fcccf95d42.png" alt="">
+<div style="height: 150px; width:300px;border:1px solid blue">
+    <h2 style="margin-top: 0px;">15% back in rewards</h2>
+    <p style="font-size: small;margin-right:-0px;margin-bottom: 0px;">on first day of purchases or flexible financing for new My Best Buy® Credit Cardmembers.
+        Offer ends 9/05/2022.</p>
+</div>
+   </div>
+    __________________________________________________
+   <h3>Looking for a lease to own option?</h3> 
+
+<p id="enjoy">Enjoy the tech you want today.Learn more ></p>
+__________________________________________________
+<div id="learn">
+  
+<img style="height: 60px; width:60px;margin-left: -0px;" id="zea" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODgiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCA4OCAzMiIgYWx0PSIiIGFyaWEtaGlkZGVuPSJ0cnVlIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEuOTY4MTUgMjUuMDg3NEwyLjczMTE5IDMxLjEzNDhIMjkuNDQxMUwyOC41NjgxIDI0LjIwOTlIMTYuMTEyOEwxNi4wMDUxIDIzLjM1MDdMMjcuNDc1MiAxNS41NTI2TDI2LjcwODggOS40OTIxOUgwTDAuODc0MTE0IDE2LjQxODJIMTMuMzQ4M0wxMy40NTgzIDE3LjI4MzhMMS45NjgxNSAyNS4wODc0WiIgZmlsbD0iIzFBMDgyNiIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTI5LjgxMjUgOS40OTEyMUwzMi41NDM3IDMxLjEzMzlINTkuMjc0N0w1Ni41NDI0IDkuNDkxMjFIMjkuODEyNVoiIGZpbGw9IiNBQThGRkYiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zMi40MDEgNi42MTk2N0MzNC4xNTA0IDguMTMzNjkgMzYuNjczOSA4LjEzMzY5IDM4LjAzNjcgNi42MTk2N0MzOS40MDA2IDUuMTA1NjQgMzkuMDg3NCAyLjY1MDM1IDM3LjMzODEgMS4xMzYzM0MzNS41ODk4IC0wLjM3ODc3NiAzMy4wNjYzIC0wLjM3ODc3NiAzMS43MDI0IDEuMTM2MzNDMzAuMzM5NiAyLjY1MDM1IDMwLjY1MTcgNS4xMDU2NCAzMi40MDEgNi42MTk2N1oiIGZpbGw9IiMxQTA4MjYiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03Ny40MjY3IDIwLjczOEw2OS4wNjEgMjAuNzQ2Nkw2OC40MDU3IDE1LjU1MjlMNzYuODE0NyAxNS41NTk0Qzc4Ljc5MTggMTUuNTgyMSA3OS44MDQ3IDE2LjY2NiA3OS45NjggMTguMTQ4N0M4MC4wNzI0IDE5LjEwMjkgNzkuNjIzNyAyMC43MzggNzcuNDI2NyAyMC43MzhaTTg3LjMwNzQgMTcuMjg0MkM4Ni42ODk5IDEyLjQxOSA4Mi43NjI1IDkuNDcwODkgNzcuNDI0NSA5LjQ5MTMySDU5LjY0NDVMNjIuMzc1NyAzMS4xMzUySDcwLjM3MzhMNjkuODI2MiAyNi44MDZINzguMjkwOEM4NC45NTI4IDI2LjgwNiA4OC4wMDE2IDIyLjc2NjQgODcuMzA3NCAxNy4yODQyWiIgZmlsbD0iIzFBMDgyNiIvPgo8L3N2Zz4K" alt="">
+    <div id="learn_2">
+        <p style="margin-left: -0px" id="" id="pay" >4 payments starting a $60.20
+             Select Zip under ‘Other payment options’ when checking out.</p>
+    </div>
+</div>
+<div>
+    <p style="margin-left:-0px ;">Buying a gift for someone special?
+        Gift options can be added in checkout. Learn more ></p>
+</div>
+</div>
+
+</body>
+</html>
+<script>
+    var data=JSON.parse(localStorage.getItem("product"))
+    function append(){
+
+let container = document.getElementById("cart");
+container.innerHTML = "";
+
+data.forEach(function(ele,index){
+    let div = document.createElement("div");
+    div.setAttribute("class","product_card")
+    let img = document.createElement("img");
+    img.src =ele.img_url;
+    img.setAttribute("id","pimage")
+    let name = document.createElement("p");
+    name.innerText = ele.name;
+    let price = document.createElement("h2");
+    price.innerText = ele.price;
+    price.setAttribute("class","Price");
+    let btn = document.createElement("button");
+    btn.addEventListener("click",function(){
+        remove(index)
+    })
+    btn.setAttribute("id","Add_To_Cart");
+    btn.innerText = "Remove";
+    // btn.addEventListener("click","Addcart()");
+    div.append(img,name,price,btn);
+    container.append(div);
+})
+
+}
+append();
+
+
+
+function subTotal(){
+    let sum=0;
+    data.forEach(function(elem){
+        sum+=+elem.price
+    })
+    
+    // Total
+    document.getElementById('total_amount').innerText=`Original Price - ${sum}`; 
+    console.log(sum)
+    save=(10/100)*sum
+    document.getElementById('saving').innerText=`Saving - ${save}`
+    
+    document.getElementById('total').innerText=`Total - ${sum-save}`
+}
+subTotal(data)
+
+function remove(index){
+// console.log(index)
+let data=JSON.parse(localStorage.getItem("product"))||[]
+
+let newdata=data.filter(function(el,i){
+    if(i===index)
+    {
+        let trash=JSON.parse(localStorage.getItem("trash"))||[]
+        trash.push(el)
+        localStorage.setItem("trash",JSON.stringify(trash))
+    }
+    else{
+        return i!== index
+    }
+    
+}
+
+
+)
+localStorage.setItem("product",JSON.stringify(newdata))
+append(newdata)
+// console.log(newdata)
+// document.getElementById("total-div").innerText=newdata.length
+
+let sum=0;
+newdata.forEach(function(elem){
+    sum+=+elem.price
+})
+
+// Total
+document.getElementById('total_amount').innerText=`Original Price - ${sum}`; 
+    console.log(sum)
+    save=(10/100)*sum
+    document.getElementById('saving').innerText=`Saving - ${save}`
+    
+    document.getElementById('total').innerText=`Total - ${sum-save}`
+  
+}
+</script>
