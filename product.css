@@ -1,0 +1,89 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(auto,300px);
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+   margin-top: 15px;
+}
+.product_card>img{
+   width: 250px;
+   height: 300px;
+
+}
+.product_card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    /* border: transparent;
+    */
+}
+#Add_To_Cart{
+    background-color: #ffe000;
+    padding: 6px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+}
+#Deal_of_the_Day{
+   /* border: 1px solid red;  */
+   height: 650px;
+   width: 100%;
+    /* display: flex; */
+    margin-top: 1px;
+}
+#GreatDeal{
+    /* border: 1px solid teal; */
+    height: 200px;
+    width: 100%;
+   background-color: #1c73e6;
+   /* display: block; */
+}
+#GreatDeal>p{
+    /* border: 1px solid black; */
+    /* margin-top: 30px; */
+    margin-left: 100px;
+    width: 20%;
+    color: white;
+}
+#GreatDeal>p:first-child{
+    font-size: 35px;
+}
+#laptop{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 67%;
+    padding-top: 50px;
+    padding-left: 100px;
+    background-color: #ffffff;
+}
+.acer{
+    height: 300px;
+    width: 400px;
+}
+#information>p{
+    /* border: 1px solid black; */
+    /* margin: 20px; */
+    padding-right: 10px;
+    padding: 20px;
+}
+#information>button{
+    /* border: 5px solid blue; */
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #ffe000;
+    color: #040c09;
+}
+.Bonus{
+    padding-left: 15px;
+}
+#cart_count{
+    color: black;
+    background-color: yellow;
+   border: none;
+    border-radius: 15px;
+    padding: 6px;
+    position: relative;
+    top: -15px;
+    left: -15px;
+}
+
