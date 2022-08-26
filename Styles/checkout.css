@@ -52,6 +52,7 @@
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 
@@ -91,3 +92,67 @@ a{
     width: 1880px;
     border: 1px solid red;
 }
+
+#container-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: rgb(4, 12, 19);
+}
+
+#primary-container{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+#child-1{
+    height: 578px;
+    width: 624px;
+    margin: 24px;
+    padding: 24px;
+    border: 1px solid black;
+}
+
+#child-2{
+    height: 356px;
+    width: 624px;
+    margin: 24px;
+    padding: 24px;
+    border: 1px solid green;
+    margin-bottom: 10px;
+}
+
+#paymentButton{
+    width: 576px;
+    height: 45px;
+    background-color: #0046BE;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+#secondcontainer{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+
+#secondary-container{
+    width: 313px;
+    height: 456px;
+    border: 1px solid red;
+    padding: 16px;
+}
+
+#order-summary{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
