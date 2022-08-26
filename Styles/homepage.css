@@ -2,224 +2,290 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
-#nav-bar {
+#info-best-buy {
   height: auto;
-  width: 100%;
-  background-color: #0046be;
-}
-
-#nav-bar-top {
-  height: 70px;
-  width: 100%;
-  border: 1px solid #4876e6;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#left-top-navbar {
-  width: 54%;
-  /* border: 1px solid red; */
-  display: flex;
-  /* justify-content: space-around; */
-  align-items: center;
-}
-
-#left-top-navbar a img {
-  height: 50px;
-  margin-right: 30px;
-  margin-left: 30px;
-}
-
-#left-top-navbar > #hambuerger {
-  height: 27px;
-  width: 22px;
-  margin-right: 7px;
-  /* margin-left: -50px; */
-  /* border: 1px solid white; */
-}
-
-#left-top-navbar > #hambuerger div {
-  height: 2px;
-  width: 100%;
-  border: 1px solid white;
-  margin-top: 5px;
-}
-
-#left-top-navbar > h3 {
-  color: white;
-  margin-right: 40px;
-  letter-spacing: 1px;
-  font-weight: 600;
-  /* margin-left: -140px; */
-}
-
-#left-top-navbar > input {
-  height: 41px;
   width: 70%;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border: none;
-  padding: 20px;
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 1px;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 30px;
 }
 
-#left-top-navbar > button {
-  height: 41px;
-  width: 40px;
-  background-color: #fff;
-  border: none;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
-  font-size: 20px;
-}
+/* <!-- outlet Deals --> */
 
-/* ///////// */
-
-#right-top-navbar {
-  height: 50px;
-  width: 30%;
+#outlet-div {
+  height: 30px;
+  width: 140px;
   /* border: 1px solid red; */
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#right-top-navbar > button {
-  /* height: 30px; */
   background-color: #0046be;
+  margin-top: 27px;
+}
+
+#outlet-div > #Outlet {
+  color: #f5e923;
+}
+
+#outlet-div > #Deals {
   color: #fff;
-  border: none;
-  font-size: 38px;
-  margin-right: -20px;
 }
 
-#right-top-navbar > h3 {
-  color: white;
-  margin-right: 40px;
-  letter-spacing: 1px;
-  font-weight: 600;
-  /* margin-left: -140px; */
-}
-
-#right-top-navbar > p {
-  color: white;
-  font-size: 21px;
-  font-weight: 500;
-  margin-left: -40px;
-}
-
-/* Bottom nav bar */
-
-#bottom-nav-bar {
-  height: 39px;
+#clearance-Shop-in-person {
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+  /* border: 1px solid burlywood; */
   display: flex;
-  gap: 60px;
 }
 
-#bottom-nav-bar > #left-bottom-navbar {
+#clearance-Shop-in-person > #left-side-upper {
+  height: 250px;
+  width: 60%;
+  border-right: 1px solid rgb(225, 229, 233);
+}
+
+#clearance-Shop-in-person > #left-side-upper > h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#clearance-Shop-in-person > #left-side-upper > h1 .red {
+  color: red;
+}
+
+#clearance-Shop-in-person > #left-side-upper > h1 #dot {
+  display: inline;
+  margin-top: 30px;
+}
+
+#round {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  margin-top: 31px;
+  margin-left: 3px;
+  border-radius: 50px;
+}
+
+#lower {
   display: flex;
-  align-items: center;
 }
 
-#bottom-nav-bar > #left-bottom-navbar > select {
-  height: 20px;
-  width: 115px;
-  border: none;
-  color: #fff;
-  background-color: #0046be;
-  margin-left: 30px;
-  margin-right: 20px;
-  font-weight: 100;
+#left-side-lower {
+  height: 40px;
+  width: 95%;
+  /* border: 1px solid red; */
+  margin-top: 30px;
+  margin-right: 24px;
 }
 
-#bottom-nav-bar > #left-bottom-navbar > p a {
-  font-weight: 100;
-  color: #fff;
-  font-size: 14px;
-  margin-right: 20px;
+#left-side-lower p {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+#right-side-upper {
+  width: 38%;
+  margin-left: 20px;
+  /* border: 1px solid red; */
+}
+/* #right-side-upper > h2 */
+
+#right-side-mid {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#right-side-lower > p {
+  margin-top: 30px;
+  font-weight: bold;
+  /* color: #0046be; */
+}
+
+#right-side-lower > p a {
+  color: #0046be;
   text-decoration: none;
 }
 
-#bottom-nav-bar > #left-bottom-navbar > p a:hover {
+#right-side-lower > p:hover {
   text-decoration: underline;
 }
 
-#bottom-nav-bar > #left-bottom-navbar > #more_opt {
-  height: 20px;
-  width: 56px;
-  border: none;
-  color: #fff;
-  background-color: #0046be;
-  margin-left: 30px;
-  margin-right: 20px;
-  font-weight: 100;
+#Featured-Outlet-deals {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  height: 35px;
+  border-bottom: 1px solid rgb(225, 229, 233);
 }
 
-/* right-bottom-navbar */
-
-#right-bottom-navbar {
-  display: flex;
-  width: 35%;
-  align-items: center;
+#open-box-deals {
+  height: 600px;
+  width: 70%;
   /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 10px;
 }
 
-#right-bottom-navbar > button {
-  background-color: #0046be;
-  border: none;
+#open-box-deals-upper {
+  height: auto;
+  width: 100%;
+  border-bottom: 1px solid rgb(225, 229, 233);
+  display: flex;
+  gap: 10px;
 }
 
-#right-bottom-navbar > button > i {
-  color: #fff;
-  font-size: 18px;
+#open-box-deals-upper1 {
+  height: 300px;
+  width: 33%;
+  /* border: 1px solid blue; */
+  border-right: 1px solid rgb(225, 229, 233);
 }
 
-#bottom-nav-bar > #right-bottom-navbar > select {
-  height: 20px;
-  width: 70px;
-  border: none;
-  color: #fff;
-  background-color: #0046be;
-  margin-left: 5px;
-  margin-right: 20px;
+.open-box-deals-upper-class img {
+  height: 180px;
+  display: block;
+  margin: auto;
+}
+
+.open-box-deals-upper-class h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#open-box-deals-upper1 p:nth-child(3) {
+  text-align: center;
   font-weight: 100;
+  font-size: 13.9px;
+  margin-top: 10px;
 }
 
-#bottom-nav-bar > #right-bottom-navbar > #Recent-View {
-  height: 20px;
-  width: 122px;
-  border: none;
-  color: #fff;
-  background-color: #0046be;
-  margin-left: 5px;
-  margin-right: 20px;
+#open-box-deals-upper1 p:nth-child(4) {
+  text-align: center;
   font-weight: 100;
+  font-size: 11px;
+  margin-top: 10px;
 }
 
-#bottom-nav-bar > #right-bottom-navbar > #Order-Satus {
-  height: 20px;
-  width: 100px;
-  border: none;
-  color: #fff;
-  background-color: #0046be;
-  margin-left: 5px;
-  margin-right: 20px;
-  font-weight: 100;
+#open-box-deals-upper2 {
+  height: 300px;
+  width: 33%;
+  /* border: 1px solid blue; */
+  border-right: 1px solid rgb(225, 229, 233);
+  /* border-bottom: 1px solid rgb(225, 229, 233); */
 }
 
-#bottom-nav-bar > #right-bottom-navbar > #Save-Items {
-  height: 20px;
-  width: 100px;
-  border: none;
-  color: #fff;
-  background-color: #0046be;
-  margin-left: 5px;
-  margin-right: 20px;
+#open-box-deals-upper3 {
+  height: 300px;
+  width: 33%;
+  /* border: 1px solid blue; */
+}
+
+#open-box-deals-lower {
+  height: auto;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+#open-box-deals-lower {
+  height: auto;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+#open-box-deals-lower1 {
+  height: 300px;
+  width: 33%;
+  /* border: 1px solid blue; */
+  border-right: 1px solid rgb(225, 229, 233);
+}
+
+.open-box-deals-lower-class img {
+  height: 180px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.open-box-deals-lower-class h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#open-box-deals-lower1 p:nth-child(3) {
+  text-align: center;
   font-weight: 100;
+  font-size: 13.9px;
+  margin-top: 10px;
+}
+
+#open-box-deals-lower2 {
+  height: 300px;
+  width: 33%;
+  /* border: 1px solid blue; */
+  border-right: 1px solid rgb(225, 229, 233);
+  /* border-bottom: 1px solid rgb(225, 229, 233); */
+}
+
+#open-box-deals-lower3 {
+  height: 300px;
+  width: 33%;
+  /* border: 1px solid blue; */
+}
+
+#hor-line {
+  height: 2px;
+  width: 70%;
+  background-color: rgb(197, 203, 213);
+  margin: auto;
+  margin-top: 30px;
+}
+
+#Shop-by-Outlet-category-div-heading {
+  width: 70%;
+  border-bottom: 1px solid rgb(225, 229, 233);
+  margin: auto;
+  margin-top: 80px;
+}
+
+#Shop-by-Outlet-category-div-heading h3 {
+  margin-bottom: 15px;
+}
+
+#Shop-by-Outlet-category-div-product1 {
+  height: auto;
+  width: 70%;
+  margin: auto;
+  border: 1px solid red;
+  margin-top: 20px;
+  display: flex;
+  gap: 7px;
+}
+
+.Shop-by-Outlet-category-div-product-divs {
+  height: auto;
+  width: 16%;
+  border: 1px solid blue;
+}
+
+.Shop-by-Outlet-category-div-product-divs img {
+  display: block;
+  margin: auto;
+  height: 70px;
+  margin-top: 20px;
+}
+
+.Shop-by-Outlet-category-div-product-divs h3 {
+  margin-top: 20px;
+}
+
+.Shop-by-Outlet-category-div-product-divs p {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }

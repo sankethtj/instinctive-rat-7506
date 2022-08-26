@@ -1,0 +1,226 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#nav-bar {
+  height: auto;
+  width: 100%;
+  background-color: #0046be;
+}
+
+#nav-bar-top {
+  height: 70px;
+  width: 100%;
+  border: 1px solid #4876e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left-top-navbar {
+  width: 54%;
+  /* border: 1px solid red; */
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+#left-top-navbar a img {
+  height: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#left-top-navbar > #hambuerger {
+  height: 27px;
+  width: 22px;
+  margin-right: 7px;
+  /* margin-left: -50px; */
+  /* border: 1px solid white; */
+}
+
+#left-top-navbar > #hambuerger div {
+  height: 2px;
+  width: 100%;
+  border: 1px solid white;
+  margin-top: 5px;
+}
+
+#left-top-navbar > h3 {
+  color: white;
+  margin-right: 40px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  /* margin-left: -140px; */
+}
+
+#left-top-navbar > input {
+  height: 41px;
+  width: 70%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#left-top-navbar > button {
+  height: 41px;
+  width: 40px;
+  background-color: #fff;
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 20px;
+}
+
+/* ///////// */
+
+#right-top-navbar {
+  height: 50px;
+  width: 30%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#right-top-navbar > button {
+  /* height: 30px; */
+  background-color: #0046be;
+  color: #fff;
+  border: none;
+  font-size: 38px;
+  margin-right: -20px;
+}
+
+#right-top-navbar > h3 {
+  color: white;
+  margin-right: 40px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  /* margin-left: -140px; */
+}
+
+#right-top-navbar > p {
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+  margin-left: -40px;
+}
+
+/* Bottom nav bar */
+
+#bottom-nav-bar {
+  height: 39px;
+  display: flex;
+  gap: 60px;
+}
+
+#bottom-nav-bar > #left-bottom-navbar {
+  display: flex;
+  align-items: center;
+}
+
+#bottom-nav-bar > #left-bottom-navbar > select {
+  height: 20px;
+  width: 115px;
+  border: none;
+  color: #fff;
+  background-color: #0046be;
+  margin-left: 30px;
+  margin-right: 20px;
+  font-weight: 100;
+}
+
+#bottom-nav-bar > #left-bottom-navbar > p a {
+  font-weight: 100;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#bottom-nav-bar > #left-bottom-navbar > p a:hover {
+  text-decoration: underline;
+}
+
+#bottom-nav-bar > #left-bottom-navbar > #more_opt {
+  height: 20px;
+  width: 56px;
+  border: none;
+  color: #fff;
+  background-color: #0046be;
+  margin-left: 30px;
+  margin-right: 20px;
+  font-weight: 100;
+}
+
+/* right-bottom-navbar */
+
+#right-bottom-navbar {
+  display: flex;
+  width: 35%;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+#right-bottom-navbar > button {
+  background-color: #0046be;
+  border: none;
+}
+
+#right-bottom-navbar > button > i {
+  color: #fff;
+  font-size: 18px;
+}
+
+#bottom-nav-bar > #right-bottom-navbar > select {
+  height: 20px;
+  width: 70px;
+  border: none;
+  color: #fff;
+  background-color: #0046be;
+  margin-left: 5px;
+  margin-right: 20px;
+  font-weight: 100;
+}
+
+#bottom-nav-bar > #right-bottom-navbar > #Recent-View {
+  height: 20px;
+  width: 122px;
+  border: none;
+  color: #fff;
+  background-color: #0046be;
+  margin-left: 5px;
+  margin-right: 20px;
+  font-weight: 100;
+}
+
+#bottom-nav-bar > #right-bottom-navbar > #Order-Satus {
+  height: 20px;
+  width: 100px;
+  border: none;
+  color: #fff;
+  background-color: #0046be;
+  margin-left: 5px;
+  margin-right: 20px;
+  font-weight: 100;
+}
+
+#bottom-nav-bar > #right-bottom-navbar > #Save-Items {
+  height: 20px;
+  width: 100px;
+  border: none;
+  color: #fff;
+  background-color: #0046be;
+  margin-left: 5px;
+  margin-right: 20px;
+  font-weight: 100;
+}
+/*  */
