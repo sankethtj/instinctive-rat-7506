@@ -92,17 +92,17 @@ var electronicData = [
     {
         img_url : "https://rukminim1.flixcart.com/image/312/312/l3xcr680/television/d/h/y/-original-imagexnsrn6af5gu.jpeg?q=70",
         name : "Nokia 109 cm (43 inch) Ultra HD (4K) LED Smart Android TV with Dolby Atmos and Dolby Vision",
-        price : "$399.99",
+        price : "399.99",
     },
     {
         img_url : "https://rukminim1.flixcart.com/image/312/312/kzu6efk0/smartwatch/d/k/z/42-android-jlk456-stout-yes-original-imagbryz3uwmctkq.jpeg?q=70",
         name : "Spark-X 4G Android Smart Watch With Bluetooth Connectivity Smartwatch Smartwatch",
-        price : "$17.99",
+        price : "17.99",
     },
     {
         img_url : "https://rukminim1.flixcart.com/image/312/312/kfeamq80/smartwatch/f/9/m/ios-m06p3hn-a-apple-original-imafvvhdndwgsfwu.jpeg?q=70",
         name : "APPLE Watch Series 6 GPS + Cellular M06P3HN/A 40 mm Space Grey Aluminium Case with Black Sport Band",
-        price : "$624.99",
+        price : "624.99",
     }
 
 ];
