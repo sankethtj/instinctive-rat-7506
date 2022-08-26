@@ -18,6 +18,8 @@ function subTotal(){
 subTotal(cartData);
 
 
-function orderplace(){
-    alert("order Successfully Placed");
-}
+let orderbutton = document.getElementById("orderbtn");
+orderbutton.addEventListener("click",function(){
+    alert('Order Successfully placed. You will receive a confirmation email with the Order ID and Tracking Number');
+    window.location.href="./homepage.html";
+})
