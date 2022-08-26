@@ -83,12 +83,13 @@ form{
 }
 .field button{
     color: #fff;
-    background-color: #0171d3;
+    background-color: #0046BE;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 .field button:hover{
-    background-color: #016dcb;
+    /* background-color: #016dcb; */
+    background-color: #0046BE;
 }
 .form-link{
     text-align: center;
@@ -101,7 +102,8 @@ form{
     color: #232836;
 }
 .form a{
-    color: #0171d3;
+    color: #0046be;
+    /* color: #0171d3; */
     text-decoration: none;
 }
 .form-content a:hover{

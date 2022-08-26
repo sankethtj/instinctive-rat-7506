@@ -19,7 +19,7 @@ let mobile=document.getElementById("mobile").value
 
 let p=new getData(name,lastname,email,password,mobile)
 console.log(p)
-alert("signup seccessfully")
+// alert("signup seccessfully")
 arr.push(p)
 
 localStorage.setItem("signupData",JSON.stringify(arr))
@@ -30,4 +30,5 @@ let emai=document.getElementById("email").value=""
 let pass=document.getElementById("password").value=""
 let mob=document.getElementById("mobile").value=""
 
+window.location.href="login.html"
 }
