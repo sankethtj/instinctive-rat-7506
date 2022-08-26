@@ -4,6 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Styles/checkout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Checkout- Best Buy</title>
   </head>
   <body>
@@ -11,7 +15,57 @@
 
     <div id="main-container">
 
-    <h3 id="header-title">Getting your Order</h3>
+    <div id="container-title">
+      <h3>Getting your order</h3>
+    </div>
+
+  <div id="secondcontainer">
+
+    <div id="primary-container">
+      <div id="child-1">
+        <h3>Store Pickup Details</h3>
+      </div>
+      <div id="child-2">
+        <h3>Contact Information</h3>
+        <div>
+          <p>We’ll send your order confirmation to this email
+             and use the following phone number only if we have
+              questions or problems fulfilling your order.</p>
+        </div>
+        <div id="email">
+          <h3>Email Address</h3>
+          <p id="customer-email"></p>
+        </div>
+        <div id="phonenum">
+          <h3>Phone Number</h3>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" name="" id="" type="checkbox" value="checkedValue" aria-label="Text me updates about all my orders, services and appointments">
+              Text me updates about all my orders, services and appointments
+            </label>
+          </div>
+        </div>
+        <button id="paymentButton"><a href="./payment.html">Continue to Payment Information</a></button>
+      </div>
+    </div>
+
+    <div id="secondary-container">
+
+      <div id="order-summary">
+        <h2>Order Summary</h2>
+      </div>
+      <div>
+        <p>Store Pickup</p>
+        <p>North Anchorage</p>
+
+      </div>
+
+
+
+
+    </div>
+
+  </div>
 
   </div>
 
@@ -45,3 +99,8 @@
   import checkoutNavbar from "./Components/checkoutNavbar.js";
   document.getElementById("navbar").innerHTML = checkoutNavbar();
 </script>
+
+<script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
