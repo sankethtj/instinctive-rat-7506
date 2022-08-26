@@ -25,7 +25,7 @@ function navbar() {
 
       <button><i class="fa fa-shopping-cart"></i></button>
       <div id="cart_count"></div>
-      <p>Cart</p>
+      <p><a href="">Cart</a></p>
     </div>
   </div>
 
