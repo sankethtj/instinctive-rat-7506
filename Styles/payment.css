@@ -34,7 +34,9 @@ body{
 #ordersummary{
     width: 313px;
     height: 456px;
-    border: 1px solid red;
+    background-color: white;
+    text-align: center;
+    
 }
 
 
@@ -134,8 +136,7 @@ input{
     background-color: yellow;
     width: 574px;
     height: 45px;
+    cursor: pointer;
 }
 
-#ordersummary{
-    background-color: white;
-}
+

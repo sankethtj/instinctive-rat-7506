@@ -108,11 +108,26 @@
         <div id="orderplacebtn">
 
             <p id="members">By placing your order, you agree to our BestBuy.com Terms and Conditions and our Privacy Policy.</p>
-            <button id="orderbtn">Place Your Order</button>
+            <button onclick="orderPlace()" id="orderbtn">Place Your Order</button>
 
         </div>
       </div>
       <div id="ordersummary">
+        <h2>Order Summary</h2>
+        <div id="store-details">
+          <p>Store Pickup</p>
+          <p>North Anchorage</p>
+          <p>Ready for pickup Fri, Sep 9</p>
+        </div>
+        <div id="placedItems"></div>
+        <hr>
+        <p id="total_amount"> </p>
+      <p id="saving"></p>
+      <p>Store Pickup - Free</p>
+      <hr>
+      <h3 id="total">Total</h3>
+      </div>
+      
 
       </div>
     </div>
@@ -124,3 +139,5 @@
 
   document.getElementById("navbar").innerHTML = navbar();
 </script>
+
+<script src="./Scripts/payment.js"></script>

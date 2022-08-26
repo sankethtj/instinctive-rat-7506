@@ -88,9 +88,13 @@ a{
 }
 
 #main-container{
-    height: 1080px;
     width: 1880px;
-    border: 1px solid red;
+    margin-bottom: 100px;
+    background-color: #f0f2f4;
+}
+
+#secondcontainer{
+    margin-left: 50px;
 }
 
 #container-title{
@@ -110,7 +114,7 @@ a{
     width: 624px;
     margin: 24px;
     padding: 24px;
-    border: 1px solid black;
+    background-color: white;
 }
 
 #child-2{
@@ -118,7 +122,7 @@ a{
     width: 624px;
     margin: 24px;
     padding: 24px;
-    border: 1px solid green;
+    background-color: white;
     margin-bottom: 10px;
 }
 
@@ -143,8 +147,8 @@ a{
 #secondary-container{
     width: 313px;
     height: 456px;
-    border: 1px solid red;
     padding: 16px;
+    background-color: white;
 }
 
 #order-summary{
@@ -153,6 +157,40 @@ a{
     line-height: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.prodimage{
+    height: 50px;
+    width: 50px;
+}
+
+#cart-items{
+    margin-bottom: 20px;
+}
+
+.prodname{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.proddiv{
+    display: flex;
+}
+
+#location-group{
+    width: 100%;
+    height: 315px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.store-buttons{
+    width: 269px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
 
 
 

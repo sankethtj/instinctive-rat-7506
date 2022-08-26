@@ -14,7 +14,7 @@ function checkoutNavbar(){
           <span>Checkout</span>
         </div>
       </div>
-      <a id="returnToCart" href="#">
+      <a id="returnToCart" href="./cart.html">
         <span>Return to Cart</span>
       </a>`;
 

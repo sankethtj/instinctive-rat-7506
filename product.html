@@ -7,6 +7,8 @@
     <title>Deal of the Day</title>
   <link rel="stylesheet" href="./product.css">
   <link rel="stylesheet" href="./Styles/homepage.css">
+  <link rel="stylesheet" href="./Styles/navbar.css">
+  <link rel="stylesheet" href="./Styles/footer.css" />
   <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -55,6 +57,8 @@
 
    </div>
    <p>advertisement</p>
+
+   <div id="footer"></div>
 </body>
 </html>
 
@@ -65,4 +69,12 @@
   import navbar from "./Components/navbar.js"
 
   document.getElementById("nav-bar").innerHTML=navbar();
+</script>
+
+<script type="module">
+  import foot from "./Components/footer.js"
+
+  document.getElementById("footer").innerHTML=foot();
+
+
 </script>

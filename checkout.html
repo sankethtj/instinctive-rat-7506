@@ -4,6 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Styles/checkout.css" />
+    <link rel="stylesheet" href="./Styles/footer.css"/>
+    <script src="https://kit.fontawesome.com/1a4457afd9.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -24,6 +26,40 @@
     <div id="primary-container">
       <div id="child-1">
         <h3>Store Pickup Details</h3>
+
+        <div id="cart-items"></div>
+        <hr>
+        <div id="location-group">
+          <div id="pickupLocation">
+            <h3>Pickup Location</h3>
+            <h4>North Anchorage</h4>
+            <p>1200 N Muldoon Rd</p>
+            <p>Anchorage, AK 99504</p>
+            <br>
+            <p><a href="#">Change pickup location</a></p>
+          </div>
+
+
+          <div id="pickupOptions">
+            <h3>Pickup Options</h3>
+            <button class="store-buttons" ><i class="fa-solid fa-store"></i>In-Store<br/>Normal Hours: 11 am - 7 pm</button>
+            <button class="store-buttons"><i class="fa-solid fa-car"></i>Curbside<br>Normal Hours: 11 a.m - 7 p.m</button>
+          </div>
+
+          <div id="pickupPerson">
+            <h3>Pickup Person</h3>
+
+            <p>You(Name on Billing Address)</p>
+
+            <p><a href="#">Add a new pickup person</a></p>
+
+            <p>Remember to bring your photo ID when you pick up your order.</p>
+
+          </div>
+          <div></div>
+        </div>
+
+
       </div>
       <div id="child-2">
         <h3>Contact Information</h3>
@@ -54,11 +90,18 @@
       <div id="order-summary">
         <h2>Order Summary</h2>
       </div>
-      <div>
+      <div id="store-details">
         <p>Store Pickup</p>
         <p>North Anchorage</p>
-
+        <p>Ready for pickup Fri, Sep 9</p>
       </div>
+      <div id="placedItems"></div>
+      <hr>
+      <p id="total_amount"> </p>
+    <p id="saving"></p>
+    <p>Store Pickup - Free</p>
+    <hr>
+    <h3 id="total">Total</h3>
 
 
 
@@ -70,28 +113,7 @@
   </div>
 
   
-
-    <footer id="footer">
-      <div id="checkout-mini-footer">
-        <div class="mini-footerLinks">
-          <nav role="navigation" class="mini-footer_nav">
-            <ul>
-              <li class="mini-footer_link">
-                <a href="#">Terms and Conditions |</a>
-              </li>
-              <li class="mini-footer_link"><a href="#">Privacy |</a></li>
-              <li class="mini-footer_link">
-                <a href="#">Interest-Based Ads</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="mini-footer_sites">
-            <a href="#">Give Feedback</a>
-            <a href="#">Mobile Site</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    
   </body>
 </html>
 
@@ -100,7 +122,10 @@
   document.getElementById("navbar").innerHTML = checkoutNavbar();
 </script>
 
-<script
+<script src="./Scripts/checkout.js"></script>
+
+
+<!-- <script
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->

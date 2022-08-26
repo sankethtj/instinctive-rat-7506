@@ -1,7 +1,7 @@
 function navbar() {
   return `<div id="nav-bar-top">
     <div id="left-top-navbar">
-      <a href="homepage.html">
+      <a href="./homepage.html">
         <img src="WhatsApp Image 2022-08-24 at 11.34.10 AM.jpeg" alt="" />
       </a>
 
@@ -25,7 +25,7 @@ function navbar() {
 
       <button><i class="fa fa-shopping-cart"></i></button>
       <div id="cart_count"></div>
-      <p><a href="">Cart</a></p>
+      <p><a href="./cart.html">Cart</a></p>
     </div>
   </div>
 
@@ -38,7 +38,7 @@ function navbar() {
         <option value="">Back To School Deals</option>
       </select>
       <p><a href="">Top Deals</a></p>
-      <p><a href="">Deals Of The Day</a></p>
+      <p><a href="./product.html">Deals Of The Day</a></p>
       <p><a href="">Totaltech Membership</a></p>
       <p><a href="">Credit Cards</a></p>
       <p><a href="">Gift Cards</a></p>
@@ -54,7 +54,7 @@ function navbar() {
       <button><i class="fa">&#xf2bd;</i></button>
       <select name="" id="">
         <option value="">Account</option>
-        <option value="">Sign In</option>
+        <option value=""><a href="./login.html">Sign In</a></option>
         <option value="">Log In</option>
       </select>
 
