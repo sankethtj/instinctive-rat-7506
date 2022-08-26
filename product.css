@@ -10,12 +10,12 @@
 .product_card>img{
    width: 250px;
    height: 300px;
-
+  
 }
+
 .product_card{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    /* border: transparent;
-    */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
 #Add_To_Cart{
     background-color: #ffe000;
@@ -23,6 +23,11 @@
     width: 120px;
     text-align: center;
     align-items: center;
+   cursor: pointer;
+
+}
+#Add_To_Cart:hover{
+    background-color: rgb(255, 255, 87);
 }
 #Deal_of_the_Day{
    /* border: 1px solid red;  */
@@ -44,9 +49,11 @@
     margin-left: 100px;
     width: 20%;
     color: white;
+    padding-bottom: 10px;
 }
 #GreatDeal>p:first-child{
     font-size: 35px;
+    padding-top: 50px;
 }
 #laptop{
     display: flex;
@@ -63,15 +70,17 @@
 #information>p{
     /* border: 1px solid black; */
     /* margin: 20px; */
-    padding-right: 10px;
-    padding: 20px;
+    /* padding-right: 10px; */
+    padding: 15px;
+    margin-left: 20px;
 }
 #information>button{
     /* border: 5px solid blue; */
-    margin-left: 20px;
+    margin-left: 35px;
     padding: 10px;
     background-color: #ffe000;
     color: #040c09;
+    margin-top: 10px;
 }
 .Bonus{
     padding-left: 15px;
@@ -86,4 +95,14 @@
     top: -15px;
     left: -15px;
 }
-
+#information >h2{
+/* border: 1px solid red; */
+width: 90px;
+margin-left: 35px;
+}
+#container+p{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
