@@ -24,6 +24,7 @@ function navbar() {
       <h3>North Anchorage</h3>
 
       <button><i class="fa fa-shopping-cart"></i></button>
+      <div id="cart_count"></div>
       <p>Cart</p>
     </div>
   </div>

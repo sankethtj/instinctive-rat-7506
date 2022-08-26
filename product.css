@@ -1,0 +1,108 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(auto,300px);
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+   margin-top: 15px;
+}
+.product_card>img{
+   width: 250px;
+   height: 300px;
+  
+}
+
+.product_card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+#Add_To_Cart{
+    background-color: #ffe000;
+    padding: 6px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+   cursor: pointer;
+
+}
+#Add_To_Cart:hover{
+    background-color: rgb(255, 255, 87);
+}
+#Deal_of_the_Day{
+   /* border: 1px solid red;  */
+   height: 650px;
+   width: 100%;
+    /* display: flex; */
+    margin-top: 1px;
+}
+#GreatDeal{
+    /* border: 1px solid teal; */
+    height: 200px;
+    width: 100%;
+   background-color: #1c73e6;
+   /* display: block; */
+}
+#GreatDeal>p{
+    /* border: 1px solid black; */
+    /* margin-top: 30px; */
+    margin-left: 100px;
+    width: 20%;
+    color: white;
+    padding-bottom: 10px;
+}
+#GreatDeal>p:first-child{
+    font-size: 35px;
+    padding-top: 50px;
+}
+#laptop{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 67%;
+    padding-top: 50px;
+    padding-left: 100px;
+    background-color: #ffffff;
+}
+.acer{
+    height: 300px;
+    width: 400px;
+}
+#information>p{
+    /* border: 1px solid black; */
+    /* margin: 20px; */
+    /* padding-right: 10px; */
+    padding: 15px;
+    margin-left: 20px;
+}
+#information>button{
+    /* border: 5px solid blue; */
+    margin-left: 35px;
+    padding: 10px;
+    background-color: #ffe000;
+    color: #040c09;
+    margin-top: 10px;
+}
+.Bonus{
+    padding-left: 15px;
+}
+#cart_count{
+    color: black;
+    background-color: yellow;
+   border: none;
+    border-radius: 15px;
+    padding: 6px;
+    position: relative;
+    top: -15px;
+    left: -15px;
+}
+#information >h2{
+/* border: 1px solid red; */
+width: 90px;
+margin-left: 35px;
+}
+#container+p{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
