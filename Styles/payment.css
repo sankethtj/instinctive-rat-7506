@@ -1,0 +1,141 @@
+#backlink{
+    color: #0046BE;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+}
+body{
+    background-color:#f0f2f4; ;
+}
+
+#paymentcontainer{
+    margin: auto;
+    background-color: #f0f2f4;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+#payment-title{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f0f2f4;
+}
+
+#card-container{
+    width: 598px;
+    margin: 24px;
+    padding: 24px;
+    background-color: white;
+}
+
+#ordersummary{
+    width: 313px;
+    height: 456px;
+    border: 1px solid red;
+}
+
+
+#cardimg{
+    height: 48px;
+    width: 574px;
+    margin-top: 20px;
+}
+
+.cardnum{
+    width: 574px;
+    height: 35px;
+    padding: 0px 15px;
+}
+
+.payment-links{
+    color: #0046BE;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#names{
+    display: flex;
+}
+
+#names>div{
+    flex-direction: column;
+    margin:auto;
+}
+
+input{
+    border-radius: 5px;
+}
+
+#firstname{
+    width: 275px;
+    height: 35px;
+}
+
+#lastname{
+    width: 275px;
+    height: 35px;
+}
+
+#city{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#billingaddress>div{
+    margin-bottom: 20px;
+}
+
+#citybox{
+    width: 275px;
+    height: 35px;
+    padding: 0px 15px;
+}
+
+#state{
+    height: 35px;
+}
+
+#zipcodebox{
+    height: 35px;
+}
+
+#rewards{
+    width: 598px;
+    margin: 24px;
+    padding: 24px;
+    background-color: white;
+}
+
+#rewards-header{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#members{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.2px;
+}
+
+#orderplacebtn{
+    width: 598px;
+    margin: 24px;
+    padding: 24px;
+    background-color: white;
+}
+
+#orderbtn{
+    background-color: yellow;
+    width: 574px;
+    height: 45px;
+}
+
+#ordersummary{
+    background-color: white;
+}

@@ -1,0 +1,126 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/checkout.css" />
+    <link rel="stylesheet" href="./Styles/payment.css" />
+    <title>Checkout- Best Buy</title>
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div id="backlink">
+        <h3>
+          <a href="./checkout.html"> < Back to Pickup & Delivery Options</a>
+        </h3>
+      </div>
+
+      <div id="payment-title">
+        <h3>Payment Information</h3>
+      </div>
+
+    <div id="paymentContainer">
+      
+
+      <div id="primary-container">
+        <div id="card-container">
+          <div id="card-info">
+            <label for="cardnumber"> Credit or Debit Card Number</label><br />
+            <input class="cardnum" type="text" />
+            <div id="card-image">
+              <img
+                id="cardimg"
+                src="https://guambar.org/system/userfiles/images/paypal-credit-cards.png"
+                alt="images-logo"
+              />
+            </div>
+            <hr />
+            <p class="payment-links"><a href="#">Other payment options</a></p>
+            <hr />
+            <p class="payment-links">
+              <a href="#"
+                >Use a Best Buy Gift Card, Store Credit or Discount Code</a
+              >
+            </p>
+
+            <h3>Billing Address</h3>
+
+            <div id="billingaddress">
+              <div id="names">
+                <div>
+                  <label for="firstName">First Name</label><br />
+                  <input id="firstname" type="text" />
+                </div>
+                <div>
+                  <label for="lastname">Last Name</label><br />
+                  <input id="lastname" type="text" />
+                </div>
+              </div>
+
+              <div id="address">
+                <label for="address">Address</label>
+                <input class="cardnum" type="text" />
+              </div>
+
+              <div id="city">
+                <div id="cityname">
+                  <p>City</p>
+                  <input id="citybox" type="text" />
+                </div>
+
+                <div id="statename">
+                  <p>State</p>
+                  <select name="state" id="state">
+                    <option value="">Select</option>
+                    <option value="AL">AL</option>
+                    <option value="AK">AK</option>
+                    <option value="AE">AE</option>
+                    <option value="AA">AA</option>
+                    <option value="AR">AR</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DE">DE</option>
+                    <option value="DC">DC</option>
+                  </select>
+                </div>
+
+                <div id="zipcode">
+                  <p>Zipcode</p>
+                  <input id="zipcodebox" type="text" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="rewards">
+            <div>
+                <h2 id="rewards-header">Your Offers & Rewards</h2>
+                <p id="members">Member #5266270419</p>
+            </div>
+            <div>
+                <h3>You don't have any reward certificates.</h3>
+                <p id="members"><a href="#">Missing a certificate?</a></p>
+            </div>
+
+        </div>
+        <div id="orderplacebtn">
+
+            <p id="members">By placing your order, you agree to our BestBuy.com Terms and Conditions and our Privacy Policy.</p>
+            <button id="orderbtn">Place Your Order</button>
+
+        </div>
+      </div>
+      <div id="ordersummary">
+
+      </div>
+    </div>
+  </body>
+</html>
+
+<script type="module">
+  import navbar from "./Components/checkoutNavbar.js";
+
+  document.getElementById("navbar").innerHTML = navbar();
+</script>

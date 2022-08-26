@@ -1,0 +1,158 @@
+#navbar{
+    width: 100%;
+    height: 70px;
+    background-color:#0046be ;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 20rem ;
+}
+
+#bestbuy-icon{
+    height: 70px
+}
+
+.checkout-header_title{
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 200px;
+    line-height: 15.6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#icon-title{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+#icon-title>div{
+    display: inline-block;
+    
+}
+
+#returnToCart{
+    text-decoration: none;
+    color: #ffff;;
+}
+
+#returnToCart{
+    margin: auto;
+}
+
+.mini-footer_nav{
+    display: flex;
+}
+
+.mini-footer_nav ul li {
+    display: inline-block;
+    font-size: 11px;
+    color: rgb(0, 70, 190);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#checkout-mini-footer{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    color: white;
+}
+
+#checkout_container{
+    height: 1008px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: #f0f2f4;
+}
+
+.checkout_col--primary{
+    position: relative;
+    z-index: 1;
+    width: 66.666%;
+}
+
+.checkout_col{
+    float: left;
+}
+
+#header-title{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-container{
+    height: 1080px;
+    width: 1880px;
+    border: 1px solid red;
+}
+
+#container-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: rgb(4, 12, 19);
+}
+
+#primary-container{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+#child-1{
+    height: 578px;
+    width: 624px;
+    margin: 24px;
+    padding: 24px;
+    border: 1px solid black;
+}
+
+#child-2{
+    height: 356px;
+    width: 624px;
+    margin: 24px;
+    padding: 24px;
+    border: 1px solid green;
+    margin-bottom: 10px;
+}
+
+#paymentButton{
+    width: 576px;
+    height: 45px;
+    background-color: #0046BE;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+#secondcontainer{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+
+#secondary-container{
+    width: 313px;
+    height: 456px;
+    border: 1px solid red;
+    padding: 16px;
+}
+
+#order-summary{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
