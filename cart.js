@@ -92,3 +92,16 @@ function remove(index){
 import foot from "./Components/footer.js";
 
 let footer=document.getElementById("footer").innerHTML=foot()
+
+
+let logInls = JSON.parse(localStorage.getItem("login"))
+let checkout = document.getElementById("cbtn")
+checkout.addEventListener("click", function(){
+    if(logInls === true){
+        window.location.href = "checkout.html"
+    }
+
+    else{
+        window.location.href = "login.html"
+    }
+})
