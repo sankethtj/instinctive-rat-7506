@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Order has been Successfully Placed. Thnak you for Shopping with us.</title>
+</head>
+
+<style>
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: Human BBY Digital, Human Fallback, Arial, Helvetica, sans-serif;
+        }
+
+       
+        /* Navbar related css */
+
+        #links {
+            display: flex;
+            justify-content: space-around;
+            padding: 1%;
+            background-color: #0046be;
+            /* box-shadow: 2px 2px 5px 3px rgb(59, 57, 73); */
+        }
+
+        #links>div {
+            display: flex;
+            color: white;
+            font-size: 23px;
+        }
+
+        #bestbuylogoimage {
+            width: 68px;
+            height: 40px;
+        }
+
+        #links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            /* align-items: center; */
+            /* margin: auto; */
+        }
+
+        #confirmedorderpic{
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        #simplebox{
+            /* border: 1px solid black; */
+            background: linear-gradient(90deg,rgba(128, 128, 128, 0.479),white,white);
+            width: 100%;
+            height: 50px;
+        }
+        #thankspagebuttoincontainer{
+            /* border: 1px solid black; */
+            width: 100%;
+            height: 100px;
+            display: flex;
+           
+        }
+        #thankspagebuttoincontainer button:first-child{
+            padding: 10px;
+            background-color: #0046be;
+            color: white;
+            border: 0px;
+            border-radius: 5px;
+            margin: auto 5px;
+        }
+        #thankspagebuttoincontainer button:last-child{
+            padding: 10px;
+            background-color: white;
+            color: #0046be;
+            border: 1px solid #0046be;
+            border-radius: 5px;
+            margin: auto 0px;
+        }
+        #locksymbol{
+            width: 20px;
+            height: 20px;
+        }
+        #security{
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: 700;
+            /* align-items: flex-start; */
+            /* text-align: center; */
+        }
+        br+span{
+            font-size: 10px;
+            margin: 0px 10px;
+        }
+
+
+
+
+</style>
+
+
+<body>
+    
+    <div id="links">
+        <a href="./homepage.html"><img id="bestbuylogoimage"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png" alt="error"></a>
+
+        <div><a id="delete" href="./cart.html">Return to Cart</a></div>
+    </div>
+
+    <div>
+        <img id="confirmedorderpic" src="https://www.poornima.edu.in/wp-content/uploads/2020/08/green-circle-check-mark-confirmation-tick-marks-vector-21826245-768x765.jpg" alt="error">
+    </div>
+    <h1>Your Order has been Successfully Placed. Thank you for Shopping with us.</h1>
+    <div id="simplebox"></div>
+    <div id="thankspagebuttoincontainer">
+        <button id="tocartagain" onclick="tocartfromthanks()">
+            Keep browsing
+        </button>
+        <a style="margin-top: 30px;" href="#"><button>
+            See Order Status
+        </button></a>
+    </div>
+    <div>
+        <img id="locksymbol" src="https://www.nicepng.com/png/full/218-2187866_lock-outlined-padlock-symbol-for-security-interface-lock.png" alt="error">
+        <span id="security">Security & privacy</span>
+        <br>
+        <span>Every transactions on bestBuy.ca is secure.Any personal information you give us will be handled according to our <span>Privacy Policy</span></span>
+    </div>
+
+</body>
+<script>
+    function tocartfromthanks(){
+        window.location.href="./cart.html"
+    }
+
+
+  document.querySelector("#delete").addEventListener("click",function(){
+      localStorage.removeItem("cartItem")
+  })
+
+</script>
+</html>
