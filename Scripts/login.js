@@ -41,14 +41,18 @@ let emai=document.getElementById("email").value=""
 let pass=document.getElementById("password").value=""
 
 
-verifyUser(email,password);
-localStorage.setItem("login",true);
+if(verifyUser(email,password)==true)
+{
+  localStorage.setItem("login",true);
 window.location.href = "./homepage.html";
+}
+
+else
+{
+  return;
+}
 
 
     }
-
-
-
 
 
